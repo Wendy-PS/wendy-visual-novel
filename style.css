@@ -1,11 +1,13 @@
 body {
-    background-image: url(./perfect3.jpg);
+    background-image: url(./imagens/perfect.jpg);
     background-size: 1800px;
     background-repeat: repeat;
     background-position: center;
     overflow: hidden;
     background-attachment: fixed;
     animation: moverFundo 20s linear infinite;
+    max-width: 1800px;
+    width: 100%;
 }
 
   @keyframes fadeInPulse {
@@ -37,4 +39,5 @@ body {
             100% {
                 background-position: -2000px 0;
             }
+    
         }
